@@ -1,0 +1,30 @@
+---
+title: Sumas de Riemann
+lang: es
+---
+
+El cálculo de áreas encerradas por regiones del plano curvas ya fue estudiado en la antigua Grecia. Una de las técnicas desarrolladas en aquella época fue el [método por agotamiento](https://es.wikipedia.org/wiki/M%C3%A9todo_por_agotamiento), qué básicamente consistía en aproximar el área de la región estudiada, inscribiendo en ella figuras geométricas de área conocida. 
+
+En este taller trataremos de usar esta idea, usando _sumas de Riemann_, para aproximar el área que queda entre la gráfica de una función $f(x)=x^2$ y el eje $X$, en el intervalo $I=[0,1]$.
+
+Para ello hay que seguir los siguientes pasos:
+
+1. Dar una aproximación por defecto y por exceso calculando las sumas inferior y superior de Riemann para particiones de $I$ en $n$ subintervalos de igual tamaño, para $n=2, 5$ y $10$.
+
+2. Calcular la sumas inferior y superior de Riemann para particiones de $I$ en $n$ subintervalos de igual tamaño.
+
+3. Calcular la integral inferior de Riemann mediante el límite cuando $n$ tiende a $\infty$ de la expresión obtenida en el apartado anterior para la suma inferior de Riemann.
+
+4. Calcular la integral superior de Riemann mediante el límite cuando $n$ tiende a $\infty$ de la expresión obtenida en el apartado anterior para la suma superior de Riemann.
+
+5. Calcular el área encerrada entre la gráfica de $f$ y el eje $X$ en el intervalo dado.
+
+6. Generalizar el proceso anterior para calcular el área encerrada entre la gráfica de $f$ y el eje $X$ en un intervalo cualquiera $I=[a,b]$.
+
+:::{.content-visible when-format="html"}
+![](img/sumas-riemann/parabola-figure0.png)
+:::
+
+:::{.content-visible unless-format="html"}
+![](img/sumas-riemann/parabola-figure0.pdf)
+:::
