@@ -28,3 +28,9 @@ Para ello hay que seguir los siguientes pasos:
 :::{.content-visible unless-format="html"}
 ![](img/sumas-riemann/parabola-figure0.pdf)
 :::
+
+### Fórmulas de ayuda
+
+$$
+\sum_{i=1}^n i = \dfrac{n(n+1)}{2}\qquad \sum_{i=1}^n i^2 = \dfrac{n(n+1)(2n+1)}{6}
+$$

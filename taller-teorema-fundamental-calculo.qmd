@@ -1,0 +1,16 @@
+---
+title: Teorema Fundamental del Cálculo
+lang: es
+---
+
+El [Teorema Fundamental del Cálculo](https://aprendeconalf.es/analisis-manual/09-integrales.html#thm-teorema-fundamental-calculo-1) fue enunciado a la vez por Newton y Leibniz en el siglo XVIII y establece el vínculo entre el Cálculo Diferencial y el Cálculo Integral, que hasta entonces se habían desarrollado por caminos muy diferentes.
+
+En este taller trataremos de comprender esta conexión entre la derivada y la integral estudiando cómo varía el área y volumen de algunas figuras geométricas sencillas. 
+
+1. Area de un cuadrado. ¿Cómo varía el área de un cuadrado si se incrementa el lado una cantidad infinitesimal $dx$? Dar una explicación geométrica. ¿Cómo se puede obtener el área de un cuadrado de lado $a$ acumulando infinitas variaciones infinitesimales del area cada vez mayores?
+
+2. Volumen de un cubo. ¿Cómo varía el volumen de un cubo si se incrementa el lado una cantidad infinitesimal $dx$? Dar una explicación geométrica. ¿Cómo se puede obtener el volumen de un cubo de lado $a$ acumulando infinitas variaciones infinitesimales del volumen cada vez mayores?
+
+3. Area de un círculo. ¿Cómo varía el area de un círculo si se incrementa el radio una cantidad infinitesimal $dx$? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del área y la del perímetro? ¿Cómo se puede calcular el área de un círculo de radio $r$ acumulando infinitas variaciones infinitesimales del area cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el área de un círculo para poder calcular su área mediante sumas de Riemann?
+
+4. Volumen de una esfera. ¿Cómo varía el volumen de una esfera si se incrementa el radio una cantidad infinitesimal $dx$? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del volumen y la de la superficie? ¿Cómo se puede calcular el volumen de una esfera de radio $r$ acumulando infinitas variaciones infinitesimales del volumen cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el volumen de una esfera para poder calcular su área mediante sumas de Riemann?

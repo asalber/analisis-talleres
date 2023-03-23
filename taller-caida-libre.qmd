@@ -1,0 +1,25 @@
+---
+title: "Aplicaciones de la Integral: Caída libre"
+lang: es
+---
+
+Julie es una paracaidista apasionada. Tiene más de 300 saltos en su haber y ha dominado el arte de cambiar la posición de su cuerpo en el aire para controlar la velocidad de caída. Si arquea la espalda y apunta su vientre hacia el suelo, alcanza una velocidad límite de aproximadamente 120 mph (176 ft/s). Si más bien orienta su cuerpo con la cabeza hacia abajo, cae más rápido, alcanzando una velocidad límite de 150 mph (220 ft/s).
+
+Como Julie se moverá (caerá) en dirección descendente, asumimos que la dirección descendente es positiva para simplificar nuestros cálculos. Julie ejecuta sus saltos desde una altitud de 12.500 ft. Al saltar de la aeronave, inmediatamente comienza a caer a una velocidad dada por  v(t)=32t.  Ella continúa acelerando según esta función de velocidad hasta que alcanza la velocidad límite. Cuando alcanza la velocidad límite, su velocidad se mantiene constante hasta que tira de la cuerda de seguridad y reduce la velocidad para aterrizar.
+
+En su primer salto del día, Julie se orienta en la posición más lenta "panza abajo" (la velocidad límite es de 176 ft/s). Con esta información, responda las siguientes preguntas.
+
+1. ¿Cuánto tiempo después de saltar del avión Julie alcanza la velocidad límite?
+
+2.Con base en su respuesta a la pregunta 1, establezca una expresión que implique una o más integrales que representen la distancia a la que cae Julie después de 30 segundos.
+
+3. Si Julie tira de su cuerda de seguridad a una altitud de 3.000 ft, ¿cuánto tiempo pasa en caída libre?
+Julie tira de su cuerda de seguridad a 3.000 ft. El paracaídas tarda 5 segundos en abrirse por completo y en frenar, tiempo durante el cual cae otros 400 ft. Después de que su casquete está completamente abierto, su velocidad se reduce a 16 ft/s. Halle el tiempo total que Julie pasa en el aire, desde que sale del avión hasta que sus pies tocan el suelo.
+
+4. En el segundo salto del día, Julie decide que quiere caer un poco más rápido y se orienta en la posición "cabeza abajo". Su velocidad límite en esta posición es de 220 ft/s. Responda a estas preguntas con base en esta velocidad:
+
+5. En este caso ¿cuánto tarda Julie en alcanzar la velocidad límite?
+6. Antes de tirar de la cuerda de seguridad, Julie reorienta su cuerpo en la posición "panza abajo" para no moverse tan rápido cuando se abra el paracaídas. Si comienza esta maniobra a una altitud de 4.000 ft, ¿cuánto tiempo pasa en caída libre antes de comenzar la reorientación?
+Algunos saltadores llevan "trajes de alas" (vea la Figura 5.31). Estos trajes tienen paneles de tela entre los brazos y las piernas y permiten al usuario deslizarse en caída libre, como una ardilla voladora. (De hecho, los trajes se llaman a veces "trajes de ardilla voladora"). Cuando se llevan estos trajes, la velocidad límite puede reducirse a unos 30 mph (44 ft/s), lo que permite a los usuarios un tiempo mucho más largo en el aire. Los pilotos de wingsuit (traje de alas) siguen utilizando paracaídas para aterrizar; aunque las velocidades verticales están dentro del margen de seguridad, las horizontales pueden superar las 70 mph, demasiado rápido para aterrizar con seguridad.
+7. Si Julie se pone un wingsuit antes de su tercer salto del día y hala su cuerda de seguridad a una altitud de 3.000 ft, ¿cuánto tiempo puede pasar planeando en el aire?
+

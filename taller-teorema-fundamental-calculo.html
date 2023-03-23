@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sumas de Riemann</title>
+<title>Teorema Fundamental del Cálculo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,16 +23,16 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="taller-sumas-riemann-1_files/libs/clipboard/clipboard.min.js"></script>
-<script src="taller-sumas-riemann-1_files/libs/quarto-html/quarto.js"></script>
-<script src="taller-sumas-riemann-1_files/libs/quarto-html/popper.min.js"></script>
-<script src="taller-sumas-riemann-1_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="taller-sumas-riemann-1_files/libs/quarto-html/anchor.min.js"></script>
-<link href="taller-sumas-riemann-1_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="taller-sumas-riemann-1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="taller-sumas-riemann-1_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="taller-sumas-riemann-1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="taller-sumas-riemann-1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="taller-teorema-fundamental-calculo_files/libs/clipboard/clipboard.min.js"></script>
+<script src="taller-teorema-fundamental-calculo_files/libs/quarto-html/quarto.js"></script>
+<script src="taller-teorema-fundamental-calculo_files/libs/quarto-html/popper.min.js"></script>
+<script src="taller-teorema-fundamental-calculo_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="taller-teorema-fundamental-calculo_files/libs/quarto-html/anchor.min.js"></script>
+<link href="taller-teorema-fundamental-calculo_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="taller-teorema-fundamental-calculo_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="taller-teorema-fundamental-calculo_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="taller-teorema-fundamental-calculo_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="taller-teorema-fundamental-calculo_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sumas de Riemann</h1>
+<h1 class="title">Teorema Fundamental del Cálculo</h1>
 </div>
 
 
@@ -61,26 +61,14 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>El cálculo de áreas encerradas por regiones del plano curvas ya fue estudiado en la antigua Grecia. Una de las técnicas desarrolladas en aquella época fue el <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_por_agotamiento">método por agotamiento</a>, qué básicamente consistía en aproximar el área de la región estudiada, inscribiendo en ella figuras geométricas de área conocida.</p>
-<p>En este taller trataremos de usar esta idea, usando <em>sumas de Riemann</em>, para aproximar el área que queda entre la gráfica de una función <span class="math inline">\(f(x)=x^2\)</span> y el eje <span class="math inline">\(X\)</span>, en el intervalo <span class="math inline">\(I=[0,1]\)</span>.</p>
-<p>Para ello hay que seguir los siguientes pasos:</p>
+<p>El <a href="https://aprendeconalf.es/analisis-manual/09-integrales.html#thm-teorema-fundamental-calculo-1">Teorema Fundamental del Cálculo</a> fue enunciado a la vez por Newton y Leibniz en el siglo XVIII y establece el vínculo entre el Cálculo Diferencial y el Cálculo Integral, que hasta entonces se habían desarrollado por caminos muy diferentes.</p>
+<p>En este taller trataremos de comprender esta conexión entre la derivada y la integral estudiando cómo varía el área y volumen de algunas figuras geométricas sencillas.</p>
 <ol type="1">
-<li><p>Dar una aproximación por defecto y por exceso calculando las sumas inferior y superior de Riemann para particiones de <span class="math inline">\(I\)</span> en <span class="math inline">\(n\)</span> subintervalos de igual tamaño, para <span class="math inline">\(n=2, 5\)</span> y <span class="math inline">\(10\)</span>.</p></li>
-<li><p>Calcular la sumas inferior y superior de Riemann para particiones de <span class="math inline">\(I\)</span> en <span class="math inline">\(n\)</span> subintervalos de igual tamaño.</p></li>
-<li><p>Calcular la integral inferior de Riemann mediante el límite cuando <span class="math inline">\(n\)</span> tiende a <span class="math inline">\(\infty\)</span> de la expresión obtenida en el apartado anterior para la suma inferior de Riemann.</p></li>
-<li><p>Calcular la integral superior de Riemann mediante el límite cuando <span class="math inline">\(n\)</span> tiende a <span class="math inline">\(\infty\)</span> de la expresión obtenida en el apartado anterior para la suma superior de Riemann.</p></li>
-<li><p>Calcular el área encerrada entre la gráfica de <span class="math inline">\(f\)</span> y el eje <span class="math inline">\(X\)</span> en el intervalo dado.</p></li>
-<li><p>Generalizar el proceso anterior para calcular el área encerrada entre la gráfica de <span class="math inline">\(f\)</span> y el eje <span class="math inline">\(X\)</span> en un intervalo cualquiera <span class="math inline">\(I=[a,b]\)</span>.</p></li>
+<li><p>Area de un cuadrado. ¿Cómo varía el área de un cuadrado si se incrementa el lado una cantidad infinitesimal <span class="math inline">\(dx\)</span>? Dar una explicación geométrica. ¿Cómo se puede obtener el área de un cuadrado de lado <span class="math inline">\(a\)</span> acumulando infinitas variaciones infinitesimales del area cada vez mayores?</p></li>
+<li><p>Volumen de un cubo. ¿Cómo varía el volumen de un cubo si se incrementa el lado una cantidad infinitesimal <span class="math inline">\(dx\)</span>? Dar una explicación geométrica. ¿Cómo se puede obtener el volumen de un cubo de lado <span class="math inline">\(a\)</span> acumulando infinitas variaciones infinitesimales del volumen cada vez mayores?</p></li>
+<li><p>Area de un círculo. ¿Cómo varía el area de un círculo si se incrementa el radio una cantidad infinitesimal <span class="math inline">\(dx\)</span>? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del área y la del perímetro? ¿Cómo se puede calcular el área de un círculo de radio <span class="math inline">\(r\)</span> acumulando infinitas variaciones infinitesimales del area cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el área de un círculo para poder calcular su área mediante sumas de Riemann?</p></li>
+<li><p>Volumen de una esfera. ¿Cómo varía el volumen de una esfera si se incrementa el radio una cantidad infinitesimal <span class="math inline">\(dx\)</span>? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del volumen y la de la superficie? ¿Cómo se puede calcular el volumen de una esfera de radio <span class="math inline">\(r\)</span> acumulando infinitas variaciones infinitesimales del volumen cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el volumen de una esfera para poder calcular su área mediante sumas de Riemann?</p></li>
 </ol>
-<div>
-<p><img src="img/sumas-riemann/parabola-figure0.png" class="img-fluid"></p>
-</div>
-<section id="fórmulas-de-ayuda" class="level3">
-<h3 class="anchored" data-anchor-id="fórmulas-de-ayuda">Fórmulas de ayuda</h3>
-<p><span class="math display">\[
-\sum_{i=1}^n i = \dfrac{n(n+1)}{2}\qquad \sum_{i=1}^n i^2 = \dfrac{n(n+1)(2n+1)}{6}
-\]</span></p>
-</section>
 
 </main>
 <!-- /main column -->
