@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+    \begin{axis}
+    [   axis equal,
+        axis lines=center,
+        xmin = -2, xmax = 2,
+        ymin = -2, ymax = 2, 
+        zmin = -2, zmax = 2,
+        xtick = {-1,0,1},
+        ytick = {-1,0,1},
+        ztick = {-1,0,1},
+        %axis on top,
+        view={30}{30},
+        z buffer=sort,
+        colormap name = bluemap,
+        scale = 2
+    ]
+        \addplot3
+        [   domain=0:360,
+            y domain=0:180,
+            surf,
+            shader=faceted interp,
+            opacity=0.5,
+        ] ({sin(y)*cos(x)},{sin(y)*sin(x)},{cos(y)});
+    \end{axis}
+\end{tikzpicture}

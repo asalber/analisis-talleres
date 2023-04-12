@@ -1,0 +1,21 @@
+---
+title: "Taller de Análisis: Volúmenes de revolución"
+lang: es
+---
+
+Los _volúmenes_ o _sólidos de revolución_ son figuras geométricas en el espacio real que se obtienen rotando una función $y=f(x)$ alrededor del eje $x$ o una función $x=g(y)$ alrededor del eje $y$.
+
+El volumen de estas figuras puede aproximarse mediante sumas de Riemann de volúmenes de figuras geométricas regulares, típicamente cilindros o anillos, y en última instancia puede calcularse mediante integrales definidas.
+
+En este taller se propone realizar el cálculo de los siguientes volúmenes de revolución usando distintas estrategias para descomponer el estas figuras en distintos tipos de figuras geométricas regulares.
+
+a. [Volumen de una esfera](https://www.geogebra.org/m/nfdm8xjg)
+
+a. [Volumen de una pirámide](https://www.geogebra.org/m/g2wu3tqw)
+
+a. [Volumen de un cono](https://www.geogebra.org/m/vfqyfuxx)
+
+a. [Volumen de un paraboloide](https://www.geogebra.org/m/xugkcvn5)
+
+a. [Volumen de un toro](https://www.geogebra.org/m/wy2uquqc)
+

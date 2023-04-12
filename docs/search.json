@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talleres de Análisis Matemático",
+    "section": "",
+    "text": "Prefacio\nColección de talleres de Análisis Matemático aplicado."
+  },
+  {
+    "objectID": "copo-nieve.html",
+    "href": "copo-nieve.html",
+    "title": "1  Análisis del fractal del copo de nieve",
+    "section": "",
+    "text": "El fractal del copo de nieve se construye partiendo de un triángulo equilátero y alterando, de forma recursiva, cada segmento de línea de las siguiente manera:\n\nDividir el segmento de linea en tres partes iguales.\nDibujar hacia el exterior de la figura un triángulo equilátero a partir del segmento medio obtenido en el paso anterior.\nBorrar el segmento medio obtenido en el primer paso.\n\nLa siguiente figura ilustra el proceso para las 5 primeras iteraciones.\n\n\n\nCreación del fractal del copo de nieve.\n\n\n\nEstudiar la convergencia de la sucesión del número de lados.\nEstudiar la convergencia de la sucesión de la longitud de los lados.\nEstudiar la convergencia de la sucesión del perímetro del copo de nieve.\nCalcular el area del copo de nieve en la etapa \\(n\\).\nCalcular el area total del fractal del copo de nieve (cuando \\(n\\to \\infty\\))."
+  },
+  {
+    "objectID": "sumas-riemann-1.html",
+    "href": "sumas-riemann-1.html",
+    "title": "2  Sumas de Riemann",
+    "section": "",
+    "text": "El cálculo de áreas encerradas por regiones del plano curvas ya fue estudiado en la antigua Grecia. Una de las técnicas desarrolladas en aquella época fue el método por agotamiento, qué básicamente consistía en aproximar el área de la región estudiada, inscribiendo en ella figuras geométricas de área conocida.\nEn este taller trataremos de usar esta idea, usando sumas de Riemann, para aproximar el área que queda entre la gráfica de una función \\(f(x)=x^2\\) y el eje \\(X\\), en el intervalo \\(I=[0,1]\\).\nPara ello hay que seguir los siguientes pasos:\n\nDar una aproximación por defecto y por exceso calculando las sumas inferior y superior de Riemann para particiones de \\(I\\) en \\(n\\) subintervalos de igual tamaño, para \\(n=2, 5\\) y \\(10\\).\nCalcular la sumas inferior y superior de Riemann para particiones de \\(I\\) en \\(n\\) subintervalos de igual tamaño.\nCalcular la integral inferior de Riemann mediante el límite cuando \\(n\\) tiende a \\(\\infty\\) de la expresión obtenida en el apartado anterior para la suma inferior de Riemann.\nCalcular la integral superior de Riemann mediante el límite cuando \\(n\\) tiende a \\(\\infty\\) de la expresión obtenida en el apartado anterior para la suma superior de Riemann.\nCalcular el área encerrada entre la gráfica de \\(f\\) y el eje \\(X\\) en el intervalo dado.\nGeneralizar el proceso anterior para calcular el área encerrada entre la gráfica de \\(f\\) y el eje \\(X\\) en un intervalo cualquiera \\(I=[a,b]\\).\n\n\n\n\n\n2.0.1 Fórmulas de ayuda\n\\[\n\\sum_{i=1}^n i = \\dfrac{n(n+1)}{2}\\qquad \\sum_{i=1}^n i^2 = \\dfrac{n(n+1)(2n+1)}{6}\n\\]"
+  },
+  {
+    "objectID": "teorema-fundamental-calculo.html",
+    "href": "teorema-fundamental-calculo.html",
+    "title": "3  Teorema Fundamental del Cálculo",
+    "section": "",
+    "text": "El Teorema Fundamental del Cálculo fue enunciado a la vez por Newton y Leibniz en el siglo XVIII y establece el vínculo entre el Cálculo Diferencial y el Cálculo Integral, que hasta entonces se habían desarrollado por caminos muy diferentes.\nEn este taller trataremos de comprender esta conexión entre la derivada y la integral estudiando cómo varía el área y volumen de algunas figuras geométricas sencillas.\n\nArea de un cuadrado. ¿Cómo varía el área de un cuadrado si se incrementa el lado una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Cómo se puede obtener el área de un cuadrado de lado \\(a\\) acumulando infinitas variaciones infinitesimales del area cada vez mayores?\nVolumen de un cubo. ¿Cómo varía el volumen de un cubo si se incrementa el lado una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Cómo se puede obtener el volumen de un cubo de lado \\(a\\) acumulando infinitas variaciones infinitesimales del volumen cada vez mayores?\nArea de un círculo. ¿Cómo varía el area de un círculo si se incrementa el radio una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del área y la del perímetro? ¿Cómo se puede calcular el área de un círculo de radio \\(r\\) acumulando infinitas variaciones infinitesimales del area cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el área de un círculo para poder calcular su área mediante sumas de Riemann?\nVolumen de una esfera. ¿Cómo varía el volumen de una esfera si se incrementa el radio una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del volumen y la de la superficie? ¿Cómo se puede calcular el volumen de una esfera de radio \\(r\\) acumulando infinitas variaciones infinitesimales del volumen cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el volumen de una esfera para poder calcular su área mediante sumas de Riemann?"
+  },
+  {
+    "objectID": "volumenes-revolucion.html",
+    "href": "volumenes-revolucion.html",
+    "title": "4  Taller de Análisis: Volúmenes de revolución",
+    "section": "",
+    "text": "Los volúmenes o sólidos de revolución son figuras geométricas en el espacio real que se obtienen rotando una función \\(y=f(x)\\) alrededor del eje \\(x\\) o una función \\(x=g(y)\\) alrededor del eje \\(y\\).\nEl volumen de estas figuras puede aproximarse mediante sumas de Riemann de volúmenes de figuras geométricas regulares, típicamente cilindros o anillos, y en última instancia puede calcularse mediante integrales definidas.\nEn este taller se propone realizar el cálculo de los siguientes volúmenes de revolución usando distintas estrategias para descomponer el estas figuras en distintos tipos de figuras geométricas regulares.\n\nVolumen de una esfera\nVolumen de una pirámide\nVolumen de un cono\nVolumen de un paraboloide\nVolumen de un toro"
+  }
+]
