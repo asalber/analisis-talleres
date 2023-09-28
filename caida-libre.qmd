@@ -1,5 +1,5 @@
 ---
-title: "Aplicaciones de la Integral: Caída libre"
+title: Caída libre
 lang: es
 ---
 

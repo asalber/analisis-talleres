@@ -8,7 +8,6 @@
 ]{scrreport}
 
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -18,6 +17,10 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -131,10 +134,12 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 \makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
 \makeatother
 \makeatletter
 \@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
 \makeatother
 \makeatletter
 \makeatother
@@ -166,7 +171,7 @@
 
 \title{Talleres de Análisis Matemático}
 \author{Alfredo Sánchez Alberca}
-\date{6/1/22}
+\date{2022-01-06}
 
 \begin{document}
 \begin{titlepage}
@@ -196,7 +201,7 @@ Sánchez
 Alberca}\\ \textsf{asalber@ceu.es} \\ \textsf{https://aprendeconalf.es}}
 \end{tabular}
 \end{flushleft}
-\end{titlepage}\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, boxrule=0pt, enhanced, breakable, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
+\end{titlepage}\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, enhanced, borderline west={3pt}{0pt}{shadecolor}, interior hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Tabla de contenidos}
 {
@@ -240,7 +245,7 @@ La siguiente figura ilustra el proceso para las 5 primeras iteraciones.
 
 \begin{figure}
 
-{\centering \includegraphics{./img/series/copo-nieve.png}
+{\centering \includegraphics{img/series/copo-nieve.png}
 
 }
 
@@ -310,7 +315,10 @@ Para ello hay que seguir los siguientes pasos:
   \(I=[a,b]\).
 \end{enumerate}
 
-\includegraphics{./img/sumas-riemann/parabola-figure0.pdf}
+\includegraphics{img/sumas-riemann/parabola-figure0.pdf}
+
+\hypertarget{fuxf3rmulas-de-ayuda}{%
+\subsection{Fórmulas de ayuda}\label{fuxf3rmulas-de-ayuda}}
 
 \[
 \sum_{i=1}^n i = \dfrac{n(n+1)}{2}\qquad \sum_{i=1}^n i^2 = \dfrac{n(n+1)(2n+1)}{6}
@@ -368,9 +376,8 @@ geométricas sencillas.
 
 \bookmarksetup{startatroot}
 
-\hypertarget{taller-de-anuxe1lisis-voluxfamenes-de-revoluciuxf3n}{%
-\chapter{Taller de Análisis: Volúmenes de
-revolución}\label{taller-de-anuxe1lisis-voluxfamenes-de-revoluciuxf3n}}
+\hypertarget{voluxfamenes-de-revoluciuxf3n}{%
+\chapter{Volúmenes de revolución}\label{voluxfamenes-de-revoluciuxf3n}}
 
 Los \emph{volúmenes} o \emph{sólidos de revolución} son figuras
 geométricas en el espacio real que se obtienen rotando una función
@@ -398,6 +405,59 @@ estas figuras en distintos tipos de figuras geométricas regulares.
   \href{https://www.geogebra.org/m/xugkcvn5}{Volumen de un paraboloide}
 \item
   \href{https://www.geogebra.org/m/wy2uquqc}{Volumen de un toro}
+\end{enumerate}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{peraltado-de-curvas}{%
+\chapter{Peraltado de curvas}\label{peraltado-de-curvas}}
+
+Cuando un vehículo toma una curva experimenta siempre una fuerza en
+dirección hacia el exterior de la curva, que se conoce como \emph{fuerza
+centrífuga}.
+
+Para que el vehículo no se salga de la curva, debe contrarrestar esa
+fuerza con otra opuesta, que normalmente proporciona el agarre de los
+neumáticos a la carretera o bien el peralte de la curva, que consiste en
+inclinar un poco la curva, proporcionándole una pequeña pendiente.
+
+\begin{figure}
+
+{\centering \includegraphics{img/peraltado/peralte.jpeg}
+
+}
+
+\caption{Curva peraltada}
+
+\end{figure}
+
+En este taller veremos cómo calcular la velocidad máxima a la que puede
+tomarse una curva en función de la inclinación del peralte.
+
+\hypertarget{tareas}{%
+\section{Tareas}\label{tareas}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Suponiendo que el vehículo toma la curva con rapidez constante,
+  calcular el vector aceleración asociado al movimiento del vehículo.
+  ¿Cuánto vale su componente tangencial? ¿Y su componente normal?
+\item
+  Suponiendo que la curva no está peraltada. ¿cuál es la fuerza de
+  agarre que deben tener los neumáticos para que el vehículo no se salga
+  de la carretera? Calcular esa fuerza para una curva de radio 100 m y
+  una rapidez de 50 km/h.
+\item
+  Suponiendo que los neumáticos no proporcionan ningún agarre (por
+  ejemplo porque hay hielo en la carretera), ¿cuánto habría que peraltar
+  la carretera para que el vehículo no se salga de ella? Expresar el
+  ángulo del peralte en función del radio de la curva y del la rapidez
+  con que la que se toma.
+\item
+  Si un coche es capaz de tomar una curva sin peralte de radio 100 m con
+  una rapidez máxima de 50 km/h, ¿cuál será la velocidad máxima con la
+  que podría tomar esa misma curva peraltada 10 grados?
 \end{enumerate}
 
 

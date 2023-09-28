@@ -1,5 +1,5 @@
 ---
-title: "Taller de Análisis: Volúmenes de revolución"
+title: Volúmenes de revolución
 lang: es
 ---
 

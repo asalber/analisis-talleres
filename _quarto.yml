@@ -37,6 +37,7 @@ book:
     - sumas-riemann-1.qmd
     - teorema-fundamental-calculo.qmd
     - volumenes-revolucion.qmd
+    - peraltado.qmd
     
 #bibliography: references.bib
 

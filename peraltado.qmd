@@ -1,0 +1,22 @@
+---
+title: Peraltado de curvas
+lang: es
+---
+
+Cuando un vehículo toma una curva experimenta siempre una fuerza en dirección hacia el exterior de la curva, que se conoce como _fuerza centrífuga_.
+
+Para que el vehículo no se salga de la curva, debe contrarrestar esa fuerza con otra opuesta, que normalmente proporciona el agarre de los neumáticos a la carretera o bien el peralte de la curva, que consiste en inclinar un poco la curva, proporcionándole una pequeña pendiente. 
+
+![Curva peraltada](img/peraltado/peralte.jpeg)
+
+En este taller veremos cómo calcular la velocidad máxima a la que puede tomarse una curva en función de la inclinación del peralte.
+
+## Tareas
+
+1. Suponiendo que el vehículo toma la curva con rapidez constante, calcular el vector aceleración asociado al movimiento del vehículo. ¿Cuánto vale su componente tangencial? ¿Y su componente normal?
+
+1. Suponiendo que la curva no está peraltada. ¿cuál es la fuerza de agarre que deben tener los neumáticos para que el vehículo no se salga de la carretera? Calcular esa fuerza para una curva de radio 100 m y una rapidez de 50 km/h.
+
+1. Suponiendo que los neumáticos no proporcionan ningún agarre (por ejemplo porque hay hielo en la carretera), ¿cuánto habría que peraltar la carretera para que el vehículo no se salga de ella? Expresar el ángulo del peralte en función del radio de la curva y del la rapidez con que la que se toma.
+
+1. Si un coche es capaz de tomar una curva sin peralte de radio 100 m con una rapidez máxima de 50 km/h, ¿cuál será la velocidad máxima con la que podría tomar esa misma curva peraltada 10 grados?

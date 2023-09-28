@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Talleres de Análisis Matemático - 4&nbsp; Volúmenes de revolución</title>
+<title>Talleres de Análisis Matemático - 5&nbsp; Peraltado de curvas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./peraltado.html" rel="next">
-<link href="./teorema-fundamental-calculo.html" rel="prev">
+<link href="./volumenes-revolucion.html" rel="prev">
 <link href="./img/logos/favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -65,16 +64,16 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Talleres de Análisis Matemático - 4&nbsp; Volúmenes de revolución">
+<meta property="og:title" content="Talleres de Análisis Matemático - 5&nbsp; Peraltado de curvas">
 <meta property="og:description" content="">
+<meta property="og:image" content="img/peraltado/peralte.jpeg">
 <meta property="og:site-name" content="Talleres de Análisis Matemático">
-<meta name="twitter:title" content="Talleres de Análisis Matemático - 4&nbsp; Volúmenes de revolución">
+<meta name="twitter:title" content="Talleres de Análisis Matemático - 5&nbsp; Peraltado de curvas">
 <meta name="twitter:description" content="">
+<meta name="twitter:image" content="img/peraltado/peralte.jpeg">
 <meta name="twitter:site" content="@aprendeconalf">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating">
@@ -86,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./volumenes-revolucion.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./peraltado.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -178,13 +177,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./volumenes-revolucion.html" class="sidebar-item-text sidebar-link active">
+  <a href="./volumenes-revolucion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./peraltado.html" class="sidebar-item-text sidebar-link">
+  <a href="./peraltado.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></span></a>
   </div>
 </li>
@@ -194,14 +193,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#tareas" id="toc-tareas" class="nav-link active" data-scroll-target="#tareas"><span class="header-section-number">5.1</span> Tareas</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></h1>
 </div>
 
 
@@ -216,18 +221,26 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Los <em>volúmenes</em> o <em>sólidos de revolución</em> son figuras geométricas en el espacio real que se obtienen rotando una función <span class="math inline">\(y=f(x)\)</span> alrededor del eje <span class="math inline">\(x\)</span> o una función <span class="math inline">\(x=g(y)\)</span> alrededor del eje <span class="math inline">\(y\)</span>.</p>
-<p>El volumen de estas figuras puede aproximarse mediante sumas de Riemann de volúmenes de figuras geométricas regulares, típicamente cilindros o anillos, y en última instancia puede calcularse mediante integrales definidas.</p>
-<p>En este taller se propone realizar el cálculo de los siguientes volúmenes de revolución usando distintas estrategias para descomponer el estas figuras en distintos tipos de figuras geométricas regulares.</p>
-<ol type="a">
-<li><p><a href="https://www.geogebra.org/m/nfdm8xjg">Volumen de una esfera</a></p></li>
-<li><p><a href="https://www.geogebra.org/m/g2wu3tqw">Volumen de una pirámide</a></p></li>
-<li><p><a href="https://www.geogebra.org/m/vfqyfuxx">Volumen de un cono</a></p></li>
-<li><p><a href="https://www.geogebra.org/m/xugkcvn5">Volumen de un paraboloide</a></p></li>
-<li><p><a href="https://www.geogebra.org/m/wy2uquqc">Volumen de un toro</a></p></li>
+<p>Cuando un vehículo toma una curva experimenta siempre una fuerza en dirección hacia el exterior de la curva, que se conoce como <em>fuerza centrífuga</em>.</p>
+<p>Para que el vehículo no se salga de la curva, debe contrarrestar esa fuerza con otra opuesta, que normalmente proporciona el agarre de los neumáticos a la carretera o bien el peralte de la curva, que consiste en inclinar un poco la curva, proporcionándole una pequeña pendiente.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/peraltado/peralte.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Curva peraltada</figcaption>
+</figure>
+</div>
+<p>En este taller veremos cómo calcular la velocidad máxima a la que puede tomarse una curva en función de la inclinación del peralte.</p>
+<section id="tareas" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="tareas"><span class="header-section-number">5.1</span> Tareas</h2>
+<ol type="1">
+<li><p>Suponiendo que el vehículo toma la curva con rapidez constante, calcular el vector aceleración asociado al movimiento del vehículo. ¿Cuánto vale su componente tangencial? ¿Y su componente normal?</p></li>
+<li><p>Suponiendo que la curva no está peraltada. ¿cuál es la fuerza de agarre que deben tener los neumáticos para que el vehículo no se salga de la carretera? Calcular esa fuerza para una curva de radio 100 m y una rapidez de 50 km/h.</p></li>
+<li><p>Suponiendo que los neumáticos no proporcionan ningún agarre (por ejemplo porque hay hielo en la carretera), ¿cuánto habría que peraltar la carretera para que el vehículo no se salga de ella? Expresar el ángulo del peralte en función del radio de la curva y del la rapidez con que la que se toma.</p></li>
+<li><p>Si un coche es capaz de tomar una curva sin peralte de radio 100 m con una rapidez máxima de 50 km/h, ¿cuál será la velocidad máxima con la que podría tomar esa misma curva peraltada 10 grados?</p></li>
 </ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -580,14 +593,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./teorema-fundamental-calculo.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Teorema Fundamental del Cálculo</span></span>
+      <a href="./volumenes-revolucion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./peraltado.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
