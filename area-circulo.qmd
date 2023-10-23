@@ -1,0 +1,28 @@
+---
+title : Cálculo del perímetro y el área del círculo
+lang: es
+---
+
+En el siglo III A.C [Arquímedes](https://es.wikipedia.org/wiki/Arqu%C3%ADmedes) usó el [método por agotamiento](https://es.wikipedia.org/wiki/M%C3%A9todo_por_agotamiento) para calcular el área encerrada por una circunferencia (y de paso el valor de $\pi$). La idea consiste en inscribir la circunferencia en polígonos regulares con un número de lados cada vez mayor.
+
+![Aproximación del área de una circunferencia mediante polígonos regulares](img/area-circulo/poligonos-circunferencia.png)
+
+El área de estos polígonos puede calcularse fácilmente descomponiendo los polígonos regulares en triángulos como en el siguiente ejemplo.
+
+::: {.content-visible when-format="html"}
+![Descomposición de un hexágono en triángulos](img/area-circulo/area-poligono-regular-inscrito.png)
+:::
+
+::: {.content-visible unless-format="html"}
+![Descomposición de un hexágono en triángulos](img/area-circulo/area-poligono-regular-inscrito.tex)
+:::
+
+a. Calcular el término general de la sucesión que mide el perímetro del polígono regular de $n$ lados inscrito dentro del círculo. 
+
+a. Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el perímetro del círculo y su radio?
+
+a. Calcular el término general de la sucesión que mide el área del polígono regular de $n$ lados inscrito dentro del círculo.
+
+a. Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el área del círculo y su radio?
+
+a. Repetir los apartados anteriores tomando los polígonos regulares en los que se inscribe el círculo.

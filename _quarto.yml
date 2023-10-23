@@ -33,6 +33,7 @@ book:
     site: "@aprendeconalf"
   chapters:
     - index.qmd
+    - area-circulo.qmd
     - copo-nieve.qmd
     - sumas-riemann-1.qmd
     - teorema-fundamental-calculo.qmd

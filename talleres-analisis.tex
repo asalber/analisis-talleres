@@ -90,6 +90,7 @@
 \DeclareMathOperator{\Ac}{Ac}
 \DeclareMathOperator{\sen}{sen}
 \makeatletter
+\@ifpackageloaded{tikz}{}{\usepackage{tikz}}
 \makeatother
 \makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
@@ -201,7 +202,7 @@ Sánchez
 Alberca}\\ \textsf{asalber@ceu.es} \\ \textsf{https://aprendeconalf.es}}
 \end{tabular}
 \end{flushleft}
-\end{titlepage}\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, enhanced, borderline west={3pt}{0pt}{shadecolor}, interior hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\end{titlepage}\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, frame hidden, breakable, sharp corners, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Tabla de contenidos}
 {
@@ -218,6 +219,66 @@ Alberca}\\ \textsf{asalber@ceu.es} \\ \textsf{https://aprendeconalf.es}}
 \markboth{Prefacio}{Prefacio}
 
 Colección de talleres de Análisis Matemático aplicado.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{cuxe1lculo-del-peruxedmetro-y-el-uxe1rea-del-cuxedrculo}{%
+\chapter{Cálculo del perímetro y el área del
+círculo}\label{cuxe1lculo-del-peruxedmetro-y-el-uxe1rea-del-cuxedrculo}}
+
+En el siglo III A.C
+\href{https://es.wikipedia.org/wiki/Arqu\%C3\%ADmedes}{Arquímedes} usó
+el
+\href{https://es.wikipedia.org/wiki/M\%C3\%A9todo_por_agotamiento}{método
+por agotamiento} para calcular el área encerrada por una circunferencia
+(y de paso el valor de \(\pi\)). La idea consiste en inscribir la
+circunferencia en polígonos regulares con un número de lados cada vez
+mayor.
+
+\begin{figure}
+
+{\centering \includegraphics{img/area-circulo/poligonos-circunferencia.png}
+
+}
+
+\caption{Aproximación del área de una circunferencia mediante polígonos
+regulares}
+
+\end{figure}
+
+El área de estos polígonos puede calcularse fácilmente descomponiendo
+los polígonos regulares en triángulos como en el siguiente ejemplo.
+
+\begin{figure}
+
+{\centering 
+
+\input{img/area-circulo/area-poligono-regular-inscrito.tex}
+
+}
+
+\caption{Descomposición de un hexágono en triángulos}
+
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Calcular el término general de la sucesión que mide el perímetro del
+  polígono regular de \(n\) lados inscrito dentro del círculo.
+\item
+  Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay
+  entre el perímetro del círculo y su radio?
+\item
+  Calcular el término general de la sucesión que mide el área del
+  polígono regular de \(n\) lados inscrito dentro del círculo.
+\item
+  Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay
+  entre el área del círculo y su radio?
+\item
+  Repetir los apartados anteriores tomando los polígonos regulares en
+  los que se inscribe el círculo.
+\end{enumerate}
 
 \bookmarksetup{startatroot}
 
