@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Talleres de Análisis Matemático - 6&nbsp; Peraltado de curvas</title>
+<title>Talleres de Análisis Matemático - 7&nbsp; Peraltado de curvas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./perceptron.html" rel="next">
 <link href="./volumenes-revolucion.html" rel="prev">
 <link href="./img/logos/favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -65,11 +66,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Talleres de Análisis Matemático - 6&nbsp; Peraltado de curvas">
+<meta property="og:title" content="Talleres de Análisis Matemático - 7&nbsp; Peraltado de curvas">
 <meta property="og:description" content="">
 <meta property="og:image" content="img/peraltado/peralte.jpeg">
 <meta property="og:site-name" content="Talleres de Análisis Matemático">
-<meta name="twitter:title" content="Talleres de Análisis Matemático - 6&nbsp; Peraltado de curvas">
+<meta name="twitter:title" content="Talleres de Análisis Matemático - 7&nbsp; Peraltado de curvas">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="img/peraltado/peralte.jpeg">
 <meta name="twitter:site" content="@aprendeconalf">
@@ -85,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./peraltado.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./peraltado.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -183,14 +184,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./caida-libre.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Caída libre</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./volumenes-revolucion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./peraltado.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./perceptron.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aprendizaje de un perceptrón</span></span></a>
   </div>
 </li>
     </ul>
@@ -203,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#tareas" id="toc-tareas" class="nav-link active" data-scroll-target="#tareas"><span class="header-section-number">6.1</span> Tareas</a></li>
+  <li><a href="#tareas" id="toc-tareas" class="nav-link active" data-scroll-target="#tareas"><span class="header-section-number">7.1</span> Tareas</a></li>
   </ul>
 </nav>
     </div>
@@ -212,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Peraltado de curvas</span></h1>
 </div>
 
 
@@ -236,8 +249,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>En este taller veremos cómo calcular la velocidad máxima a la que puede tomarse una curva en función de la inclinación del peralte.</p>
-<section id="tareas" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="tareas"><span class="header-section-number">6.1</span> Tareas</h2>
+<section id="tareas" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="tareas"><span class="header-section-number">7.1</span> Tareas</h2>
 <ol type="1">
 <li><p>Suponiendo que el vehículo toma la curva con rapidez constante, calcular el vector aceleración asociado al movimiento del vehículo. ¿Cuánto vale su componente tangencial? ¿Y su componente normal?</p></li>
 <li><p>Suponiendo que la curva no está peraltada. ¿cuál es la fuerza de agarre que deben tener los neumáticos para que el vehículo no se salga de la carretera? Calcular esa fuerza para una curva de radio 100 m y una rapidez de 50 km/h.</p></li>
@@ -600,10 +613,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./volumenes-revolucion.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Volúmenes de revolución</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./perceptron.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aprendizaje de un perceptrón</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

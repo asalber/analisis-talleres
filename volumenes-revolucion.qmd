@@ -7,15 +7,17 @@ Los _volúmenes_ o _sólidos de revolución_ son figuras geométricas en el espa
 
 El volumen de estas figuras puede aproximarse mediante sumas de Riemann de volúmenes de figuras geométricas regulares, típicamente cilindros o anillos, y en última instancia puede calcularse mediante integrales definidas.
 
+## Tareas 
+
 En este taller se propone realizar el cálculo de los siguientes volúmenes de revolución usando distintas estrategias para descomponer el estas figuras en distintos tipos de figuras geométricas regulares.
 
-a. [Volumen de una esfera](https://www.geogebra.org/m/nfdm8xjg)
+1. [Volumen de una esfera](https://www.geogebra.org/m/nfdm8xjg)
 
-a. [Volumen de una pirámide](https://www.geogebra.org/m/g2wu3tqw)
+1. [Volumen de una pirámide](https://www.geogebra.org/m/g2wu3tqw)
 
-a. [Volumen de un cono](https://www.geogebra.org/m/vfqyfuxx)
+1. [Volumen de un cono](https://www.geogebra.org/m/vfqyfuxx)
 
-a. [Volumen de un paraboloide](https://www.geogebra.org/m/xugkcvn5)
+1. [Volumen de un paraboloide](https://www.geogebra.org/m/xugkcvn5)
 
-a. [Volumen de un toro](https://www.geogebra.org/m/wy2uquqc)
+1. [Volumen de un toro](https://www.geogebra.org/m/wy2uquqc)
 

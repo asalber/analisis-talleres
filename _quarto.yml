@@ -37,8 +37,10 @@ book:
     - copo-nieve.qmd
     - sumas-riemann-1.qmd
     - teorema-fundamental-calculo.qmd
+    - caida-libre.qmd
     - volumenes-revolucion.qmd
     - peraltado.qmd
+    - perceptron.qmd
     
 #bibliography: references.bib
 

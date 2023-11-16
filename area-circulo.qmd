@@ -17,12 +17,14 @@ El área de estos polígonos puede calcularse fácilmente descomponiendo los pol
 ![Descomposición de un hexágono en triángulos](img/area-circulo/area-poligono-regular-inscrito.tex)
 :::
 
-a. Calcular el término general de la sucesión que mide el perímetro del polígono regular de $n$ lados inscrito dentro del círculo. 
+## Tareas 
 
-a. Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el perímetro del círculo y su radio?
+1. Calcular el término general de la sucesión que mide el perímetro del polígono regular de $n$ lados inscrito dentro del círculo. 
 
-a. Calcular el término general de la sucesión que mide el área del polígono regular de $n$ lados inscrito dentro del círculo.
+1. Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el perímetro del círculo y su radio?
 
-a. Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el área del círculo y su radio?
+1. Calcular el término general de la sucesión que mide el área del polígono regular de $n$ lados inscrito dentro del círculo.
 
-a. Repetir los apartados anteriores tomando los polígonos regulares en los que se inscribe el círculo.
+1. Estudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el área del círculo y su radio?
+
+1. Repetir los apartados anteriores tomando los polígonos regulares en los que se inscribe el círculo.

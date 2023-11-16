@@ -1,8 +1,0 @@
----
-title: Longitud de una curva
-lang: es
----
-
-Usar esta idea para calcular el perímetro de una circunferencia de radio 1.
-
-

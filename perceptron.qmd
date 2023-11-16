@@ -1,0 +1,66 @@
+---
+title: Aprendizaje de un perceptrón
+lang: es
+---
+
+Un [perceptrón](https://es.wikipedia.org/wiki/Perceptr%C3%B3n) es un tipo de neurona artificial utilizada las [redes neuronales artificiales](https://es.wikipedia.org/wiki/Red_neuronal_artificial). Fue desarrollado por Frank Rosenblatt en 1957 como un modelo simplificado de una neurona biológica.
+
+![Primera implementación hardware de un perceptrón (Mark I) desarrollado por Frank Rosenblatt en 1957.](img/perceptron/perceptron-mark-1.jpeg)
+
+Un perceptrón consta de los siguientes elementos:
+
+-   **Conexiones de entrada**. Contienen los datos que llegan a la unidad de procesamiento de la neurona artificial. Cada conexión tiene asociado un peso que se van ajustando durante el proceso de entrenamiento de la red.
+
+-   **Unidad de procesamiento**. Se encarga de aplicar una *función de activación* a la suma de los datos de entrada ponderado por los pesos de las conexiones. Existen distintos tipos de funciones de activación, aunque las más habituales son
+
+    -   *Función escalón*: $$
+          \begin{cases}
+          0 & \text{si } x < \alpha \\
+          1 & \text{si } x \geq \alpha\\
+          \end{cases} 
+          $$
+
+        Es la función de activación más simple y devuelve 1 si la suma ponderada de las entradas alcanza un determinado valor umbral, y 0 en caso contrario.
+
+    -   *Función sigmoidal*: $\dfrac{1}{1+e^{-x}}$.
+
+        Devuelve valores entre 0 y 1 de manera continua y suele utilizarse en modelos donde la salida es una probabilidad.
+
+    -   *Función tangente hiperbólica*: $\dfrac{e^x-e^{-x}}{e^x+e^{-x}}$.
+
+        Es similar a la función sigmoidal, pero devuelve valores entre -1 y 1. La principal diferencia con la sigmoidal es que está normalizada para centrar la salida en 0.
+
+-   **Salida**. Es el resultado de la función de activación, y suele ser la entrada de la siguiente neurona en la red.
+
+::: {.content-visible when-format="html"}
+![Perceptrón con dos entradas](img/perceptron/perceptron.png)
+:::
+
+::: {.content-visible unless-format="html"}
+![Perceptrón con dos entradas](img/perceptron/perceptron.pdf)
+:::
+
+Para entrenar al perceptrón de la figura se utiliza una colección de $n$ ejemplos $(x_i,y_i,z_i)$ para los que se conoce la el valor real de $z_i$ asociado a cada par $(x_i,y_i)$. Para cada ejemplo se realizan los siguientes pasos:
+
+1.  Proporcionarle al perceptrón los valores de entrada $(x_i,y_i)$ y calcular la salida correspondiente a estos valores, $\hat{z_i} = f(w_0+w_1x+w_2y)$, donde $f$ es la función de activación.
+2.  Calcular el error cometido $e_i = z_i-\hat{z_i}$.
+3.  Actualizar los pesos proporcionalmente a la dirección en la que error decrezca lo más rápidamente posible. Se suele tomar una pequeña constante de proporcionalidad $\eta$ llamada *tasa de aprendizaje*.
+
+Este procedimiento se conoce como el algoritmo del *gradiente descendente*.
+
+Cuando se acaba con la colección de ejemplos se vuelve a repetir el procedimiento hasta que el error sea lo suficientemente pequeño o se alcance un número preestablecido de iteraciones.
+
+## Tareas
+
+1.  Dar una fórmula para la actualización de los pesos de las conexiones de entrada al perceptrón en cada iteración para las funciones de activación sigmoidal y tangente hiperbólica.
+
+2.  Usar la formula anterior para realizar las primeras iteraciones del entrenamiento del perceptrón para aprender la función lógica `AND`, tomando el siguiente conjunto de entrenamiento y partiendo de pesos aleatorios entre -1 y 1.
+
+    | $x$ | $y$ | $z$ |
+    |:---:|:---:|:---:|
+    |  0  |  0  |  0  |
+    |  0  |  1  |  0  |
+    |  1  |  0  |  0  |
+    |  1  |  1  |  1  |
+
+3.  ¿Cómo influye la tasa de aprendizaje $eta$ en el ajuste de los pesos? ¿Cómo debería ser la tasa de aprendizaje para que el algoritmo converja hacia el mínimo error?

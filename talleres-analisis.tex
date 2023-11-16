@@ -202,7 +202,7 @@ Sánchez
 Alberca}\\ \textsf{asalber@ceu.es} \\ \textsf{https://aprendeconalf.es}}
 \end{tabular}
 \end{flushleft}
-\end{titlepage}\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, frame hidden, breakable, sharp corners, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\end{titlepage}\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, breakable, enhanced, borderline west={3pt}{0pt}{shadecolor}, interior hidden, boxrule=0pt, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Tabla de contenidos}
 {
@@ -261,8 +261,11 @@ los polígonos regulares en triángulos como en el siguiente ejemplo.
 
 \end{figure}
 
+\hypertarget{tareas}{%
+\section{Tareas}\label{tareas}}
+
 \begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
+\def\labelenumi{\arabic{enumi}.}
 \item
   Calcular el término general de la sucesión que mide el perímetro del
   polígono regular de \(n\) lados inscrito dentro del círculo.
@@ -314,9 +317,11 @@ La siguiente figura ilustra el proceso para las 5 primeras iteraciones.
 
 \end{figure}
 
+\hypertarget{tareas-1}{%
+\section{Tareas}\label{tareas-1}}
+
 \begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
-\tightlist
+\def\labelenumi{\arabic{enumi}.}
 \item
   Estudiar la convergencia de la sucesión del número de lados.
 \item
@@ -398,6 +403,9 @@ el siglo XVIII y establece el vínculo entre el Cálculo Diferencial y el
 Cálculo Integral, que hasta entonces se habían desarrollado por caminos
 muy diferentes.
 
+\hypertarget{tareas-2}{%
+\section{Tareas}\label{tareas-2}}
+
 En este taller trataremos de comprender esta conexión entre la derivada
 y la integral estudiando cómo varía el área y volumen de algunas figuras
 geométricas sencillas.
@@ -437,6 +445,80 @@ geométricas sencillas.
 
 \bookmarksetup{startatroot}
 
+\hypertarget{cauxedda-libre}{%
+\chapter{Caída libre}\label{cauxedda-libre}}
+
+\begin{figure}
+
+{\centering \includegraphics{img/caida-libre/wingsuit.jpg}
+
+}
+
+\caption{Traje de alas (wingsuit) para planear.}
+
+\end{figure}
+
+Julia es una paracaidista apasionada. Tiene más de 300 saltos en su
+haber y ha dominado el arte de cambiar la posición de su cuerpo en el
+aire para controlar la velocidad de caída. Si arquea la espalda y apunta
+su vientre hacia el suelo, alcanza una velocidad límite de
+aproximadamente 54 m/s. Si más bien orienta su cuerpo con la cabeza
+hacia abajo, cae más rápido, alcanzando una velocidad límite de 67 m/s.
+
+Como Julia se moverá (caerá) en dirección descendente, asumimos que la
+dirección descendente es positiva para simplificar nuestros cálculos.
+Julia ejecuta sus saltos desde una altitud de 3800 m. Al saltar de la
+aeronave, inmediatamente comienza a caer a una velocidad dada por
+v(t)=32t. Ella continúa acelerando según esta función de velocidad hasta
+que alcanza la velocidad límite. Cuando alcanza la velocidad límite, su
+velocidad se mantiene constante hasta que tira de la cuerda de seguridad
+y reduce la velocidad para aterrizar.
+
+\hypertarget{tareas-3}{%
+\section{Tareas}\label{tareas-3}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  En su primer salto del día, Julia se orienta en la posición más lenta
+  ``panza abajo''. ¿Cuánto tiempo después de saltar del avión Julia
+  alcanza la velocidad límite?
+\item
+  Según la respuesta anterior, dar una expresión que implique una o más
+  integrales que representen la distancia a la que cae Julia después de
+  30 segundos.
+\item
+  Si Julia tira de la cuerda de apertura del paracaídas a una altitud de
+  900 m, ¿cuánto tiempo pasa en caída libre?
+
+  Julia tira de su cuerda de seguridad a 900 m. El paracaídas tarda 5
+  segundos en abrirse por completo y en frenar, tiempo durante el cual
+  cae otros 120 m. Después de que su paracaídas está completamente
+  abierto, su velocidad se reduce a 4 m/s. Hallar el tiempo total que
+  Julia pasa en el aire, desde que sale del avión hasta que sus pies
+  tocan el suelo.
+\item
+  En el segundo salto del día, Julia decide que quiere caer un poco más
+  rápido y se orienta en la posición ``cabeza abajo''. En este caso
+  ¿cuánto tarda Julia en alcanzar la velocidad límite?
+
+  Antes de tirar de la cuerda de seguridad, Julia reorienta su cuerpo en
+  la posición ``panza abajo'' para no moverse tan rápido cuando se abra
+  el paracaídas. Si comienza esta maniobra a una altitud de 1200 m,
+  ¿cuánto tiempo pasa en caída libre antes de comenzar la reorientación?
+\item
+  Algunos saltadores llevan ``trajes de alas'' como el de la figura.
+  Estos trajes tienen paneles de tela entre los brazos y las piernas y
+  permiten al usuario deslizarse en caída libre, como una ardilla
+  voladora. Cuando se llevan estos trajes, la velocidad límite puede
+  reducirse a unos 13 m/s, lo que permite a los usuarios un tiempo mucho
+  más largo en el aire. Si Julia se pone un traje de este tipo antes de
+  su tercer salto del día y tira de su paracaídas a una altitud de 900
+  m, ¿cuánto tiempo puede pasar planeando en el aire?
+\end{enumerate}
+
+\bookmarksetup{startatroot}
+
 \hypertarget{voluxfamenes-de-revoluciuxf3n}{%
 \chapter{Volúmenes de revolución}\label{voluxfamenes-de-revoluciuxf3n}}
 
@@ -450,12 +532,15 @@ de volúmenes de figuras geométricas regulares, típicamente cilindros o
 anillos, y en última instancia puede calcularse mediante integrales
 definidas.
 
+\hypertarget{tareas-4}{%
+\section{Tareas}\label{tareas-4}}
+
 En este taller se propone realizar el cálculo de los siguientes
 volúmenes de revolución usando distintas estrategias para descomponer el
 estas figuras en distintos tipos de figuras geométricas regulares.
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
+\def\labelenumi{\arabic{enumi}.}
 \item
   \href{https://www.geogebra.org/m/nfdm8xjg}{Volumen de una esfera}
 \item
@@ -495,8 +580,8 @@ inclinar un poco la curva, proporcionándole una pequeña pendiente.
 En este taller veremos cómo calcular la velocidad máxima a la que puede
 tomarse una curva en función de la inclinación del peralte.
 
-\hypertarget{tareas}{%
-\section{Tareas}\label{tareas}}
+\hypertarget{tareas-5}{%
+\section{Tareas}\label{tareas-5}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -519,6 +604,145 @@ tomarse una curva en función de la inclinación del peralte.
   Si un coche es capaz de tomar una curva sin peralte de radio 100 m con
   una rapidez máxima de 50 km/h, ¿cuál será la velocidad máxima con la
   que podría tomar esa misma curva peraltada 10 grados?
+\end{enumerate}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{aprendizaje-de-un-perceptruxf3n}{%
+\chapter{Aprendizaje de un
+perceptrón}\label{aprendizaje-de-un-perceptruxf3n}}
+
+Un \href{https://es.wikipedia.org/wiki/Perceptr\%C3\%B3n}{perceptrón} es
+un tipo de neurona artificial utilizada las
+\href{https://es.wikipedia.org/wiki/Red_neuronal_artificial}{redes
+neuronales artificiales}. Fue desarrollado por Frank Rosenblatt en 1957
+como un modelo simplificado de una neurona biológica.
+
+\begin{figure}
+
+{\centering \includegraphics{img/perceptron/perceptron-mark-1.jpeg}
+
+}
+
+\caption{Primera implementación hardware de un perceptrón (Mark I)
+desarrollado por Frank Rosenblatt en 1957.}
+
+\end{figure}
+
+Un perceptrón consta de los siguientes elementos:
+
+\begin{itemize}
+\item
+  \textbf{Conexiones de entrada}. Contienen los datos que llegan a la
+  unidad de procesamiento de la neurona artificial. Cada conexión tiene
+  asociado un peso que se van ajustando durante el proceso de
+  entrenamiento de la red.
+\item
+  \textbf{Unidad de procesamiento}. Se encarga de aplicar una
+  \emph{función de activación} a la suma de los datos de entrada
+  ponderado por los pesos de las conexiones. Existen distintos tipos de
+  funciones de activación, aunque las más habituales son
+
+  \begin{itemize}
+  \item
+    \emph{Función escalón}: \[
+      \begin{cases}
+      0 & \text{si } x < \alpha \\
+      1 & \text{si } x \geq \alpha\\
+      \end{cases} 
+      \]
+
+    Es la función de activación más simple y devuelve 1 si la suma
+    ponderada de las entradas alcanza un determinado valor umbral, y 0
+    en caso contrario.
+  \item
+    \emph{Función sigmoidal}: \(\dfrac{1}{1+e^{-x}}\).
+
+    Devuelve valores entre 0 y 1 de manera continua y suele utilizarse
+    en modelos donde la salida es una probabilidad.
+  \item
+    \emph{Función tangente hiperbólica}:
+    \(\dfrac{e^x-e^{-x}}{e^x+e^{-x}}\).
+
+    Es similar a la función sigmoidal, pero devuelve valores entre -1 y
+    1. La principal diferencia con la sigmoidal es que está normalizada
+    para centrar la salida en 0.
+  \end{itemize}
+\item
+  \textbf{Salida}. Es el resultado de la función de activación, y suele
+  ser la entrada de la siguiente neurona en la red.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics{img/perceptron/perceptron.pdf}
+
+}
+
+\caption{Perceptrón con dos entradas}
+
+\end{figure}
+
+Para entrenar al perceptrón de la figura se utiliza una colección de
+\(n\) ejemplos \((x_i,y_i,z_i)\) para los que se conoce la el valor real
+de \(z_i\) asociado a cada par \((x_i,y_i)\). Para cada ejemplo se
+realizan los siguientes pasos:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Proporcionarle al perceptrón los valores de entrada \((x_i,y_i)\) y
+  calcular la salida correspondiente a estos valores,
+  \(\hat{z_i} = f(w_0+w_1x+w_2y)\), donde \(f\) es la función de
+  activación.
+\item
+  Calcular el error cometido \(e_i = z_i-\hat{z_i}\).
+\item
+  Actualizar los pesos proporcionalmente a la dirección en la que error
+  decrezca lo más rápidamente posible. Se suele tomar una pequeña
+  constante de proporcionalidad \(\eta\) llamada \emph{tasa de
+  aprendizaje}.
+\end{enumerate}
+
+Este procedimiento se conoce como el algoritmo del \emph{gradiente
+descendente}.
+
+Cuando se acaba con la colección de ejemplos se vuelve a repetir el
+procedimiento hasta que el error sea lo suficientemente pequeño o se
+alcance un número preestablecido de iteraciones.
+
+\hypertarget{tareas-6}{%
+\section{Tareas}\label{tareas-6}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Dar una fórmula para la actualización de los pesos de las conexiones
+  de entrada al perceptrón en cada iteración para las funciones de
+  activación sigmoidal y tangente hiperbólica.
+\item
+  Usar la formula anterior para realizar las primeras iteraciones del
+  entrenamiento del perceptrón para aprender la función lógica
+  \texttt{AND}, tomando el siguiente conjunto de entrenamiento y
+  partiendo de pesos aleatorios entre -1 y 1.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \(x\) & \(y\) & \(z\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0 \\
+  0 & 1 & 0 \\
+  1 & 0 & 0 \\
+  1 & 1 & 1 \\
+  \end{longtable}
+\item
+  ¿Cómo influye la tasa de aprendizaje \(eta\) en el ajuste de los
+  pesos? ¿Cómo debería ser la tasa de aprendizaje para que el algoritmo
+  converja hacia el mínimo error?
 \end{enumerate}
 
 

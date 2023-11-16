@@ -5,6 +5,8 @@ lang: es
 
 El [Teorema Fundamental del Cálculo](https://aprendeconalf.es/analisis-manual/09-integrales.html#thm-teorema-fundamental-calculo-1) fue enunciado a la vez por Newton y Leibniz en el siglo XVIII y establece el vínculo entre el Cálculo Diferencial y el Cálculo Integral, que hasta entonces se habían desarrollado por caminos muy diferentes.
 
+## Tareas
+
 En este taller trataremos de comprender esta conexión entre la derivada y la integral estudiando cómo varía el área y volumen de algunas figuras geométricas sencillas. 
 
 1. Area de un cuadrado. ¿Cómo varía el área de un cuadrado si se incrementa el lado una cantidad infinitesimal $dx$? Dar una explicación geométrica. ¿Cómo se puede obtener el área de un cuadrado de lado $a$ acumulando infinitas variaciones infinitesimales del area cada vez mayores?
