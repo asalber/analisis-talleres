@@ -51,6 +51,7 @@ format:
       dark: darkly
       light: flatly
     html-math-method: mathjax
+    default-image-extension: svg
   pdf:
     documentclass: scrreport
     papersize: a4
@@ -65,6 +66,7 @@ format:
       - preamble.tex
       - macros.tex
     keep-tex: true
+    default-image-extension: pdf
     #mainfont: TeX Gyre Termes
     #mainfontoptions:
     #  - Numbers=Lowercase

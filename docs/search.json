@@ -4,62 +4,159 @@
     "href": "index.html",
     "title": "Talleres de Análisis Matemático",
     "section": "",
-    "text": "Prefacio\nColección de talleres de Análisis Matemático aplicado."
+    "text": "Prefacio\nColección de talleres de Análisis Matemático aplicado.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "area-circulo.html",
+    "href": "area-circulo.html",
+    "title": "1  Cálculo del perímetro y el área del círculo",
+    "section": "",
+    "text": "1.1 Tareas",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Cálculo del perímetro y el área del círculo</span>"
+    ]
   },
   {
     "objectID": "area-circulo.html#tareas",
     "href": "area-circulo.html#tareas",
     "title": "1  Cálculo del perímetro y el área del círculo",
-    "section": "1.1 Tareas",
-    "text": "1.1 Tareas\n\nCalcular el término general de la sucesión que mide el perímetro del polígono regular de \\(n\\) lados inscrito dentro del círculo.\nEstudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el perímetro del círculo y su radio?\nCalcular el término general de la sucesión que mide el área del polígono regular de \\(n\\) lados inscrito dentro del círculo.\nEstudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el área del círculo y su radio?\nRepetir los apartados anteriores tomando los polígonos regulares en los que se inscribe el círculo."
+    "section": "",
+    "text": "Calcular el término general de la sucesión que mide el perímetro del polígono regular de \\(n\\) lados inscrito dentro del círculo.\nEstudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el perímetro del círculo y su radio?\nCalcular el término general de la sucesión que mide el área del polígono regular de \\(n\\) lados inscrito dentro del círculo.\nEstudiar la convergencia de la sucesión anterior. ¿Qué relación hay entre el área del círculo y su radio?\nRepetir los apartados anteriores tomando los polígonos regulares en los que se inscribe el círculo.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Cálculo del perímetro y el área del círculo</span>"
+    ]
+  },
+  {
+    "objectID": "copo-nieve.html",
+    "href": "copo-nieve.html",
+    "title": "2  Análisis del fractal del copo de nieve",
+    "section": "",
+    "text": "2.1 Tareas",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Análisis del fractal del copo de nieve</span>"
+    ]
   },
   {
     "objectID": "copo-nieve.html#tareas",
     "href": "copo-nieve.html#tareas",
     "title": "2  Análisis del fractal del copo de nieve",
-    "section": "2.1 Tareas",
-    "text": "2.1 Tareas\n\nEstudiar la convergencia de la sucesión del número de lados.\nEstudiar la convergencia de la sucesión de la longitud de los lados.\nEstudiar la convergencia de la sucesión del perímetro del copo de nieve.\nCalcular el area del copo de nieve en la etapa \\(n\\).\nCalcular el area total del fractal del copo de nieve (cuando \\(n\\to \\infty\\))."
+    "section": "",
+    "text": "Estudiar la convergencia de la sucesión del número de lados.\nEstudiar la convergencia de la sucesión de la longitud de los lados.\nEstudiar la convergencia de la sucesión del perímetro del copo de nieve.\nCalcular el area del copo de nieve en la etapa \\(n\\).\nCalcular el area total del fractal del copo de nieve (cuando \\(n\\to \\infty\\)).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Análisis del fractal del copo de nieve</span>"
+    ]
   },
   {
     "objectID": "sumas-riemann-1.html",
     "href": "sumas-riemann-1.html",
     "title": "3  Sumas de Riemann",
     "section": "",
-    "text": "El cálculo de áreas encerradas por regiones del plano curvas ya fue estudiado en la antigua Grecia. Una de las técnicas desarrolladas en aquella época fue el método por agotamiento, qué básicamente consistía en aproximar el área de la región estudiada, inscribiendo en ella figuras geométricas de área conocida.\nEn este taller trataremos de usar esta idea, usando sumas de Riemann, para aproximar el área que queda entre la gráfica de una función \\(f(x)=x^2\\) y el eje \\(X\\), en el intervalo \\(I=[0,1]\\).\nPara ello hay que seguir los siguientes pasos:\n\nDar una aproximación por defecto y por exceso calculando las sumas inferior y superior de Riemann para particiones de \\(I\\) en \\(n\\) subintervalos de igual tamaño, para \\(n=2, 5\\) y \\(10\\).\nCalcular la sumas inferior y superior de Riemann para particiones de \\(I\\) en \\(n\\) subintervalos de igual tamaño.\nCalcular la integral inferior de Riemann mediante el límite cuando \\(n\\) tiende a \\(\\infty\\) de la expresión obtenida en el apartado anterior para la suma inferior de Riemann.\nCalcular la integral superior de Riemann mediante el límite cuando \\(n\\) tiende a \\(\\infty\\) de la expresión obtenida en el apartado anterior para la suma superior de Riemann.\nCalcular el área encerrada entre la gráfica de \\(f\\) y el eje \\(X\\) en el intervalo dado.\nGeneralizar el proceso anterior para calcular el área encerrada entre la gráfica de \\(f\\) y el eje \\(X\\) en un intervalo cualquiera \\(I=[a,b]\\).\n\n\n\n3.0.1 Fórmulas de ayuda\n\\[\n\\sum_{i=1}^n i = \\dfrac{n(n+1)}{2}\\qquad \\sum_{i=1}^n i^2 = \\dfrac{n(n+1)(2n+1)}{6}\n\\]"
+    "text": "El cálculo de áreas encerradas por regiones del plano curvas ya fue estudiado en la antigua Grecia. Una de las técnicas desarrolladas en aquella época fue el método por agotamiento, qué básicamente consistía en aproximar el área de la región estudiada, inscribiendo en ella figuras geométricas de área conocida.\nEn este taller trataremos de usar esta idea, usando sumas de Riemann, para aproximar el área que queda entre la gráfica de una función \\(f(x)=x^2\\) y el eje \\(X\\), en el intervalo \\(I=[0,1]\\).\nPara ello hay que seguir los siguientes pasos:\n\nDar una aproximación por defecto y por exceso calculando las sumas inferior y superior de Riemann para particiones de \\(I\\) en \\(n\\) subintervalos de igual tamaño, para \\(n=2, 5\\) y \\(10\\).\nCalcular la sumas inferior y superior de Riemann para particiones de \\(I\\) en \\(n\\) subintervalos de igual tamaño.\nCalcular la integral inferior de Riemann mediante el límite cuando \\(n\\) tiende a \\(\\infty\\) de la expresión obtenida en el apartado anterior para la suma inferior de Riemann.\nCalcular la integral superior de Riemann mediante el límite cuando \\(n\\) tiende a \\(\\infty\\) de la expresión obtenida en el apartado anterior para la suma superior de Riemann.\nCalcular el área encerrada entre la gráfica de \\(f\\) y el eje \\(X\\) en el intervalo dado.\nGeneralizar el proceso anterior para calcular el área encerrada entre la gráfica de \\(f\\) y el eje \\(X\\) en un intervalo cualquiera \\(I=[a,b]\\).\n\n\n\n3.0.1 Fórmulas de ayuda\n\\[\n\\sum_{i=1}^n i = \\dfrac{n(n+1)}{2}\\qquad \\sum_{i=1}^n i^2 = \\dfrac{n(n+1)(2n+1)}{6}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sumas de Riemann</span>"
+    ]
+  },
+  {
+    "objectID": "teorema-fundamental-calculo.html",
+    "href": "teorema-fundamental-calculo.html",
+    "title": "4  Teorema Fundamental del Cálculo",
+    "section": "",
+    "text": "4.1 Tareas\nEn este taller trataremos de comprender esta conexión entre la derivada y la integral estudiando cómo varía el área y volumen de algunas figuras geométricas sencillas.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teorema Fundamental del Cálculo</span>"
+    ]
   },
   {
     "objectID": "teorema-fundamental-calculo.html#tareas",
     "href": "teorema-fundamental-calculo.html#tareas",
     "title": "4  Teorema Fundamental del Cálculo",
-    "section": "4.1 Tareas",
-    "text": "4.1 Tareas\nEn este taller trataremos de comprender esta conexión entre la derivada y la integral estudiando cómo varía el área y volumen de algunas figuras geométricas sencillas.\n\nArea de un cuadrado. ¿Cómo varía el área de un cuadrado si se incrementa el lado una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Cómo se puede obtener el área de un cuadrado de lado \\(a\\) acumulando infinitas variaciones infinitesimales del area cada vez mayores?\nVolumen de un cubo. ¿Cómo varía el volumen de un cubo si se incrementa el lado una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Cómo se puede obtener el volumen de un cubo de lado \\(a\\) acumulando infinitas variaciones infinitesimales del volumen cada vez mayores?\nArea de un círculo. ¿Cómo varía el area de un círculo si se incrementa el radio una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del área y la del perímetro? ¿Cómo se puede calcular el área de un círculo de radio \\(r\\) acumulando infinitas variaciones infinitesimales del area cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el área de un círculo para poder calcular su área mediante sumas de Riemann?\nVolumen de una esfera. ¿Cómo varía el volumen de una esfera si se incrementa el radio una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del volumen y la de la superficie? ¿Cómo se puede calcular el volumen de una esfera de radio \\(r\\) acumulando infinitas variaciones infinitesimales del volumen cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el volumen de una esfera para poder calcular su área mediante sumas de Riemann?"
+    "section": "",
+    "text": "Area de un cuadrado. ¿Cómo varía el área de un cuadrado si se incrementa el lado una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Cómo se puede obtener el área de un cuadrado de lado \\(a\\) acumulando infinitas variaciones infinitesimales del area cada vez mayores?\nVolumen de un cubo. ¿Cómo varía el volumen de un cubo si se incrementa el lado una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Cómo se puede obtener el volumen de un cubo de lado \\(a\\) acumulando infinitas variaciones infinitesimales del volumen cada vez mayores?\nArea de un círculo. ¿Cómo varía el area de un círculo si se incrementa el radio una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del área y la del perímetro? ¿Cómo se puede calcular el área de un círculo de radio \\(r\\) acumulando infinitas variaciones infinitesimales del area cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el área de un círculo para poder calcular su área mediante sumas de Riemann?\nVolumen de una esfera. ¿Cómo varía el volumen de una esfera si se incrementa el radio una cantidad infinitesimal \\(dx\\)? Dar una explicación geométrica. ¿Qué relación hay entre la fórmula del volumen y la de la superficie? ¿Cómo se puede calcular el volumen de una esfera de radio \\(r\\) acumulando infinitas variaciones infinitesimales del volumen cada vez mayores? ¿Qué otras formas se te ocurren de descomponer el volumen de una esfera para poder calcular su área mediante sumas de Riemann?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Teorema Fundamental del Cálculo</span>"
+    ]
+  },
+  {
+    "objectID": "caida-libre.html",
+    "href": "caida-libre.html",
+    "title": "5  Caída libre",
+    "section": "",
+    "text": "5.1 Tareas",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Caída libre</span>"
+    ]
   },
   {
     "objectID": "caida-libre.html#tareas",
     "href": "caida-libre.html#tareas",
     "title": "5  Caída libre",
-    "section": "5.1 Tareas",
-    "text": "5.1 Tareas\n\nEn su primer salto del día, Julia se orienta en la posición más lenta “panza abajo”. ¿Cuánto tiempo después de saltar del avión Julia alcanza la velocidad límite?\nSegún la respuesta anterior, dar una expresión que implique una o más integrales que representen la distancia a la que cae Julia después de 30 segundos.\nSi Julia tira de la cuerda de apertura del paracaídas a una altitud de 900 m, ¿cuánto tiempo pasa en caída libre?\nJulia tira de su cuerda de seguridad a 900 m. El paracaídas tarda 5 segundos en abrirse por completo y en frenar, tiempo durante el cual cae otros 120 m. Después de que su paracaídas está completamente abierto, su velocidad se reduce a 4 m/s. Hallar el tiempo total que Julia pasa en el aire, desde que sale del avión hasta que sus pies tocan el suelo.\nEn el segundo salto del día, Julia decide que quiere caer un poco más rápido y se orienta en la posición “cabeza abajo”. En este caso ¿cuánto tarda Julia en alcanzar la velocidad límite?\nAntes de tirar de la cuerda de seguridad, Julia reorienta su cuerpo en la posición “panza abajo” para no moverse tan rápido cuando se abra el paracaídas. Si comienza esta maniobra a una altitud de 1200 m, ¿cuánto tiempo pasa en caída libre antes de comenzar la reorientación?\nAlgunos saltadores llevan “trajes de alas” como el de la figura. Estos trajes tienen paneles de tela entre los brazos y las piernas y permiten al usuario deslizarse en caída libre, como una ardilla voladora. Cuando se llevan estos trajes, la velocidad límite puede reducirse a unos 13 m/s, lo que permite a los usuarios un tiempo mucho más largo en el aire. Si Julia se pone un traje de este tipo antes de su tercer salto del día y tira de su paracaídas a una altitud de 900 m, ¿cuánto tiempo puede pasar planeando en el aire?"
+    "section": "",
+    "text": "En su primer salto del día, Julia se orienta en la posición más lenta “panza abajo”. ¿Cuánto tiempo después de saltar del avión Julia alcanza la velocidad límite?\nSegún la respuesta anterior, dar una expresión que implique una o más integrales que representen la distancia a la que cae Julia después de 30 segundos.\nSi Julia tira de la cuerda de apertura del paracaídas a una altitud de 900 m, ¿cuánto tiempo pasa en caída libre?\nJulia tira de su cuerda de seguridad a 900 m. El paracaídas tarda 5 segundos en abrirse por completo y en frenar, tiempo durante el cual cae otros 120 m. Después de que su paracaídas está completamente abierto, su velocidad se reduce a 4 m/s. Hallar el tiempo total que Julia pasa en el aire, desde que sale del avión hasta que sus pies tocan el suelo.\nEn el segundo salto del día, Julia decide que quiere caer un poco más rápido y se orienta en la posición “cabeza abajo”. En este caso ¿cuánto tarda Julia en alcanzar la velocidad límite?\nAntes de tirar de la cuerda de seguridad, Julia reorienta su cuerpo en la posición “panza abajo” para no moverse tan rápido cuando se abra el paracaídas. Si comienza esta maniobra a una altitud de 1200 m, ¿cuánto tiempo pasa en caída libre antes de comenzar la reorientación?\nAlgunos saltadores llevan “trajes de alas” como el de la figura. Estos trajes tienen paneles de tela entre los brazos y las piernas y permiten al usuario deslizarse en caída libre, como una ardilla voladora. Cuando se llevan estos trajes, la velocidad límite puede reducirse a unos 13 m/s, lo que permite a los usuarios un tiempo mucho más largo en el aire. Si Julia se pone un traje de este tipo antes de su tercer salto del día y tira de su paracaídas a una altitud de 900 m, ¿cuánto tiempo puede pasar planeando en el aire?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Caída libre</span>"
+    ]
+  },
+  {
+    "objectID": "volumenes-revolucion.html",
+    "href": "volumenes-revolucion.html",
+    "title": "6  Volúmenes de revolución",
+    "section": "",
+    "text": "6.1 Tareas\nEn este taller se propone realizar el cálculo de los siguientes volúmenes de revolución usando distintas estrategias para descomponer el estas figuras en distintos tipos de figuras geométricas regulares.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Volúmenes de revolución</span>"
+    ]
   },
   {
     "objectID": "volumenes-revolucion.html#tareas",
     "href": "volumenes-revolucion.html#tareas",
     "title": "6  Volúmenes de revolución",
-    "section": "6.1 Tareas",
-    "text": "6.1 Tareas\nEn este taller se propone realizar el cálculo de los siguientes volúmenes de revolución usando distintas estrategias para descomponer el estas figuras en distintos tipos de figuras geométricas regulares.\n\nVolumen de una esfera\nVolumen de una pirámide\nVolumen de un cono\nVolumen de un paraboloide\nVolumen de un toro"
+    "section": "",
+    "text": "Volumen de una esfera\nVolumen de una pirámide\nVolumen de un cono\nVolumen de un paraboloide\nVolumen de un toro",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Volúmenes de revolución</span>"
+    ]
+  },
+  {
+    "objectID": "peraltado.html",
+    "href": "peraltado.html",
+    "title": "7  Peraltado de curvas",
+    "section": "",
+    "text": "7.1 Tareas",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Peraltado de curvas</span>"
+    ]
   },
   {
     "objectID": "peraltado.html#tareas",
     "href": "peraltado.html#tareas",
     "title": "7  Peraltado de curvas",
-    "section": "7.1 Tareas",
-    "text": "7.1 Tareas\n\nSuponiendo que el vehículo toma la curva con rapidez constante, calcular el vector aceleración asociado al movimiento del vehículo. ¿Cuánto vale su componente tangencial? ¿Y su componente normal?\nSuponiendo que la curva no está peraltada. ¿cuál es la fuerza de agarre que deben tener los neumáticos para que el vehículo no se salga de la carretera? Calcular esa fuerza para una curva de radio 100 m y una rapidez de 50 km/h.\nSuponiendo que los neumáticos no proporcionan ningún agarre (por ejemplo porque hay hielo en la carretera), ¿cuánto habría que peraltar la carretera para que el vehículo no se salga de ella? Expresar el ángulo del peralte en función del radio de la curva y del la rapidez con que la que se toma.\nSi un coche es capaz de tomar una curva sin peralte de radio 100 m con una rapidez máxima de 50 km/h, ¿cuál será la velocidad máxima con la que podría tomar esa misma curva peraltada 10 grados?"
+    "section": "",
+    "text": "Suponiendo que el vehículo toma la curva con rapidez constante, calcular el vector aceleración asociado al movimiento del vehículo. ¿Cuánto vale su componente tangencial? ¿Y su componente normal?\nSuponiendo que la curva no está peraltada. ¿cuál es la fuerza de agarre que deben tener los neumáticos para que el vehículo no se salga de la carretera? Calcular esa fuerza para una curva de radio 100 m y una rapidez de 50 km/h.\nSuponiendo que los neumáticos no proporcionan ningún agarre (por ejemplo porque hay hielo en la carretera), ¿cuánto habría que peraltar la carretera para que el vehículo no se salga de ella? Expresar el ángulo del peralte en función del radio de la curva y del la rapidez con que la que se toma.\nSi un coche es capaz de tomar una curva sin peralte de radio 100 m con una rapidez máxima de 50 km/h, ¿cuál será la velocidad máxima con la que podría tomar esa misma curva peraltada 10 grados?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Peraltado de curvas</span>"
+    ]
+  },
+  {
+    "objectID": "perceptron.html",
+    "href": "perceptron.html",
+    "title": "8  Aprendizaje de un perceptrón",
+    "section": "",
+    "text": "8.1 Tareas",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Aprendizaje de un perceptrón</span>"
+    ]
   },
   {
     "objectID": "perceptron.html#tareas",
     "href": "perceptron.html#tareas",
     "title": "8  Aprendizaje de un perceptrón",
-    "section": "8.1 Tareas",
-    "text": "8.1 Tareas\n\nDar una fórmula para la actualización de los pesos de las conexiones de entrada al perceptrón en cada iteración para las funciones de activación sigmoidal y tangente hiperbólica.\nUsar la formula anterior para realizar las primeras iteraciones del entrenamiento del perceptrón para aprender la función lógica AND, tomando el siguiente conjunto de entrenamiento y partiendo de pesos aleatorios entre -1 y 1.\n\n\n\n\\(x\\)\n\\(y\\)\n\\(z\\)\n\n\n\n\n0\n0\n0\n\n\n0\n1\n0\n\n\n1\n0\n0\n\n\n1\n1\n1\n\n\n\n¿Cómo influye la tasa de aprendizaje \\(eta\\) en el ajuste de los pesos? ¿Cómo debería ser la tasa de aprendizaje para que el algoritmo converja hacia el mínimo error?"
+    "section": "",
+    "text": "Dar una fórmula para la actualización de los pesos de las conexiones de entrada al perceptrón en cada iteración para las funciones de activación sigmoidal y tangente hiperbólica.\nUsar la formula anterior para realizar las primeras iteraciones del entrenamiento del perceptrón para aprender la función lógica AND, tomando el siguiente conjunto de entrenamiento y partiendo de pesos aleatorios entre -1 y 1.\n\n\n\n\\(x\\)\n\\(y\\)\n\\(z\\)\n\n\n\n\n0\n0\n0\n\n\n0\n1\n0\n\n\n1\n0\n0\n\n\n1\n1\n1\n\n\n\n¿Cómo influye la tasa de aprendizaje \\(\\eta\\) en el ajuste de los pesos? ¿Cómo debería ser la tasa de aprendizaje para que el algoritmo converja hacia el mínimo error?\nGeneralizar las fórmulas de actualización de los pesos para una red neuronal con dos entradas, una capa de neuronas intermedia con dos neuronas y dos neuronas de salida, como la de la siguiente figura.\n\n\n\n\nRed neuronal con dos entradas, una capa intermedia con dos neuronas y dos neuronas de salida",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Aprendizaje de un perceptrón</span>"
+    ]
   }
 ]

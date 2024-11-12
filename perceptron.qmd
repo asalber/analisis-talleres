@@ -63,4 +63,8 @@ Cuando se acaba con la colección de ejemplos se vuelve a repetir el procedimien
     |  1  |  0  |  0  |
     |  1  |  1  |  1  |
 
-3.  ¿Cómo influye la tasa de aprendizaje $eta$ en el ajuste de los pesos? ¿Cómo debería ser la tasa de aprendizaje para que el algoritmo converja hacia el mínimo error?
+3.  ¿Cómo influye la tasa de aprendizaje $\eta$ en el ajuste de los pesos? ¿Cómo debería ser la tasa de aprendizaje para que el algoritmo converja hacia el mínimo error?
+
+4.  Generalizar las fórmulas de actualización de los pesos para una red neuronal con dos entradas, una capa de neuronas intermedia con dos neuronas y dos neuronas de salida, como la de la siguiente figura.
+
+![Red neuronal con dos entradas, una capa intermedia con dos neuronas y dos neuronas de salida](img/perceptron/red-neuronas){width="400"}
